@@ -1,15 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-import Header from './Header'
-import Body from './Body'
+
+import './styling/App.css';
+import HeaderComponent from './components/HeaderComponent'
+import BodyComponent from './components/BodyComponent'
 function App() {
   return (
     <div className="App">
       <div className="Header">
-        <Header/>
+        <HeaderComponent/>
       </div>
       <div className="Body">
-        <Body/>
+        <BodyComponent/>
       </div>
      
     </div>
